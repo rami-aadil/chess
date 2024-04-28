@@ -1,0 +1,6 @@
+{
+  "id": "puzzle1",
+  "date": "2024-04-29",
+  "FEN": "rnbqkb1r/ppp1pppp/5n2/8/2B5/2N2N2/PPP2PPP/R1BQK2R w KQkq - 0 1",
+  "solution": ["Bxf7+", "Kxf7", "Qxd8"]
+}
