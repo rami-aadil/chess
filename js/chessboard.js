@@ -40,3 +40,18 @@ class Chessboard {
         });
     }
 }
+function resizeChessboard() {
+    const container = document.getElementById('canvas');
+    const board = document.getElementById('chessboard');
+
+    // Set the canvas dimensions to the container's dimensions
+    board.width = container.clientWidth;
+    board.height = container.clientWidth; // Assuming a square chessboard
+
+    // Redraw the chessboard here if needed
+    render(); // Assuming you have a function to draw the chessboard
+}
+
+// Call resizeChessboard on window resize and initial load
+window.addEventListener('resize', resizeChessboard);
+document.addEventListener('DOMContentLoaded', resizeChessboard);
